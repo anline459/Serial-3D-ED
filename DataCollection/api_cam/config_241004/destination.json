@@ -1,0 +1,73 @@
+{
+    "Image": [
+        {
+            "Base": "file:///home/asi/ts/instamatic-modified_3.0_SerialED/instamatic-modified-master/data/image",
+            "FilePattern": "f%Hms_",
+            "Format": "tiff",
+            "Mode": "count",
+            "Thresholds": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "IntegrationSize": 0,
+            "StopMeasurementOnDiskLimit": true,
+            "QueueSize": 1024,
+            "Corrections": [],
+            "Processing": []
+        }
+    ],
+    "Preview": {
+        "Period": 0.1,
+        "SamplingMode": "skipOnFrame",
+        "ImageChannels": [
+            {
+                "Base": "http://localhost",
+                "FilePattern": "f%Hms_",
+                "Format": "tiff",
+                "Mode": "count",
+                "Thresholds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "IntegrationSize": 0,
+                "StopMeasurementOnDiskLimit": false,
+                "QueueSize": 16,
+                "Corrections": [],
+                "Processing": []
+            },
+            {
+                "Base": "tcp://127.0.0.1:8089",
+                "Format": "jsonimage",
+                "Mode": "count",
+                "Thresholds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "IntegrationSize": -1,
+                "IntegrationMode": "last",
+                "StopMeasurementOnDiskLimit": false,
+                "QueueSize": 16,
+                "Corrections": [],
+                "Processing": []
+            }
+        ]
+    }
+}

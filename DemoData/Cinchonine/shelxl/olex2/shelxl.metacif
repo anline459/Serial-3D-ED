@@ -1,0 +1,26 @@
+data_shelxl
+_olex2_submission_special_instructions 'No special instructions were received'
+_audit_creation_date              2025-02-13
+_audit_creation_method            
+;
+Olex2 1.5
+(compiled 2024.02.16 svn.r378c4104 for OlexSys, GUI svn.r6928)
+;
+
+_computing_molecular_graphics     'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_publication_material   'Olex2 1.5 (Dolomanov et al., 2009)'
+_publ_contact_author_email        ?
+_publ_contact_author_phone        ?
+_publ_contact_author_address      ?
+_publ_contact_author_id_orcid     ?
+_computing_structure_refinement   'SHELXL 2018/3 (Sheldrick, 2015)'
+_publ_section_references          
+;
+Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
+ (2009), J. Appl. Cryst. 42, 339-341.
+
+Sheldrick, G.M. (2015). Acta Cryst. C71, 3-8.
+;
+
+_publ_contact_author_name         ''
+

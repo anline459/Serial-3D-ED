@@ -1,0 +1,47 @@
+snum {
+  current_process_diagnostics = 'refinement'
+  hkl {
+    hkl_stat_file = 'D:\\OneDrive\\Documents\\HJY\\7_serial_3DED_for_Chirality\\code\\ToReviewer\\DemoData\\Cinchonine\\shelxl\\shelxl.hkl'
+  }
+  smtbx {
+    atomic_form_factor_table = it1992 wk1995 n_gaussian *electron neutron
+    electron_table_name = None Custom 'Peng-1996' '*Peng-1999' 'UCLA-2022' \
+                          'CAP-2022'
+  }
+  solution {
+    program = ShelXS ShelXS-1997 ShelXS-1986 XS XT *ShelXT 'olex2.solve' XM \
+              ShelXD ShelXD-1997 SIR2002 SIR2004 SIR2008 SIR2011 Superflip \
+              Unknown ShelXS-2013 ShelXS86 ShelXD-2013
+    method = 'Dual Space' 'Charge Flipping' 'Direct Methods' \
+             'Patterson Method' 'Structure Expansion' '*Intrinsic Phasing' \
+             Unknown
+    current_atomic_volume = '19.0'
+  }
+  refinement {
+    completeness {
+      target = '- Laue Group Completeness to 2Θ=1.5: 70.0%%&#013;- Point Group Completeness to 2Θ=1.5: 70.9%%'
+    }
+    parameters = '89.0'
+    data = '1278'
+    max_shift_over_esd = '0.000'
+    max_shift_site = '0'
+    max_shift_site_atom = 'C005'
+    max_shift_u = '0'
+    max_shift_u_atom = 'C00L'
+    max_peak = '0.18'
+    max_hole = '-0.18'
+    goof = '1.410'
+    hooft_str = '1(23)'
+    last_R1 = '0.1755'
+    last_wR2 = '0.4408'
+    program = XL XH ShelXH-1997 *ShelXL ShelXL-1997 'olex2.refine' Unknown
+    method = '*Least Squares' CGLS 'Gauss-Newton' 'Levenberg-Marquardt' \
+             'Full Matrix' Unknown
+    max_cycles = '100'
+    max_peaks = '26'
+    suggested_weight = '0.2 0'
+  }
+  history {
+    current_node = '308b6d2bb40e48bed1a0abedd096676b'
+  }
+}

@@ -1,0 +1,19 @@
+Program: Serial cRED, By JunyiHu, ShanghaiTech University
+Data Collection Time: 2024_10_17_23_43_18
+Starting angle: -50.46 degrees
+Rotation speed: 5.03 degrees/s
+Ending angle: 51.69 degrees
+Rotation range: 102.15 degrees
+Exposure Time: 0.05 s
+Total time: 20.325 s
+Spot Size: 7 .
+Camera length: 300 mm
+Pixelsize: 0.004950299 px/Angstrom
+Physical pixelsize: 0.055 mm
+Wavelength: 0.02508 Angstrom
+Rotation axis: -128 degree
+Oscillation angle: 0.2522 degrees
+semi Oscillation angle: 0.1261 degrees
+Number of frames: 405 frames
+Dimension of camera: 512 pixel
+Brightness: 65535 au

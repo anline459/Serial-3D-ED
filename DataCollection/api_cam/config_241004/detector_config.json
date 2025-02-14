@@ -1,0 +1,28 @@
+{
+    "Fan1PWM": 70,
+    "Fan2PWM": 100,
+    "BiasVoltage": 99,
+    "BiasEnabled": true,
+    "ChainMode": "NONE",
+    "TriggerIn": 1,
+    "TriggerOut": 4,
+    "Polarity": "Positive",
+    "TriggerMode": "AUTOTRIGSTART_TIMERSTOP",
+    "ExposureTime": 0.099,
+    "TriggerPeriod": 0.1,
+    "nTriggers": 99999,
+    "BothCounters": false,
+    "Colour": false,
+    "ChargeSumming": false,
+    "GainMode": "SLGM",
+    "PixelDepth": 12,
+    "IDelayConfig": [
+        15,
+        15,
+        10,
+        10
+    ],
+    "CounterSelectIn": 0,
+    "CounterSelectOut": 0,
+    "LogLevel": 1
+}
