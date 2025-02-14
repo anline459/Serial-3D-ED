@@ -1,0 +1,6 @@
+
+! Wrote by Junyi Hu, ShanghaiTech University, 2023-10-07
+INPUT_FILE= XDS_ASCII.HKL
+OUTPUT_FILE= shelxl.hkl  SHELX
+FRIEDEL'S_LAW= FALSE
+
